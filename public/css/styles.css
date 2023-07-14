@@ -1,0 +1,326 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+  }
+  body {
+      font-family: 'roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+  /* Encabezado */
+  .header {
+    background-color: #ffdb2a;
+    height: 35vh;
+    padding: 20px;
+    ;
+  }
+  .logo {
+    max-width: 25%;
+    
+  }
+  
+  .buy-cuotas{
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .buy-ofertas{
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .hamburguer-boton{
+    background-color: #1259c3;
+    color:#ffffff;
+    display: block;
+    max-width: 60px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto;
+  
+  }
+  
+    .navbar-search {
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    .navbar-search input[type="text"] {
+      padding: 5px;
+    }
+    
+    .navbar-search button[type="submit"] {
+      padding: 5px 10px;
+      background-color: #333;
+      color: #FFF;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .main-navbar{
+      display: none;
+    }
+    .main-navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .main-navbar a {
+      text-decoration: none;
+      color: #222222;
+      display: inline-block;
+      padding: 5px 0;
+      font-size: 17px;
+    }
+    
+    
+  
+
+    /* Banner */
+.banner {
+  width: 100%;
+  max-height: auto;
+  margin: 0px
+}
+
+
+
+/* Secciones */
+main{
+  background-color: #ebebeb;
+}
+.container-producto{
+  max-width: 1200px;
+  width: 100vw;
+  padding: 15px;
+  margin: auto;
+  margin-top: -4px;
+  display: block;
+}
+.producto{
+  display: block;
+  background-color: #ffffff;
+  width: 90%;
+  border: solid 1px #ffffff;
+  margin: auto;
+  margin-bottom: 25px;  
+ }
+.producto-descripcion{
+  position: relative;
+  padding: 0 15px 0 15px;
+}
+.precios{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.descuentos {
+  font-size: 18px;
+  color: #39b54a;
+  font-style: normal;
+  margin-left: 10%;
+}
+.elemento {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #666;
+}
+.visita,
+.ofertas {
+  font-size: 24px;
+  width: 95%;
+  color: #666;
+}
+.imagen {
+  width: 100%;
+  border-bottom: solid 5px #eee;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.fa-truck{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  color: #39b54a;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: -50px; 
+ }
+
+ .fa-truck:hover {
+  transform: rotate(-90deg);
+  transition: 1s;
+ }
+
+.footer {
+  flex-shrink: 0;
+  bottom: 0%;  
+  width: 100%;
+  background-color: #333333;
+  color: #ffffff;  
+  text-align: center;  
+  padding: 20px;
+}
+
+
+
+
+ 
+
+/* Estilo del footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.elemento-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-tarjeta {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.img-footer,
+.imagen-footer {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #1259c3;
+}
+
+.img-footer:hover,
+.imagen-footer:hover {
+  color: #39b54a; /* Cambia el color a verde (#39b54a) al pasar el mouse */
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p span {
+  font-size: 14px;
+}
+
+/* Estilos adicionales para pantallas más grandes */
+@media (min-width: 769px) {
+  .main-head-top{
+    display: flex;
+    justify-content: space-between;
+  }
+  .buy-cuotas{
+    max-width: 350px;
+    text-align: right;
+  }
+  .buy-ofertas{
+    max-width: 200px;
+    text-align: right;
+  }
+  .hamburguer-boton{
+    display: none;
+  }
+  .main-navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-navbar ul {
+    display: flex;
+  }
+  .main-navbar li {
+    margin: 0 5px;
+  }
+  .navbar-search {
+    margin: 25px 0;
+    text-align: center;
+  }
+  
+  .producto {
+    width: 20%;
+  } 
+  .container-producto{ 
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .producto:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.elemento{
+  display: none;
+}
+.producto:hover .elemento{
+  display: block; 
+}
+
+  .elemento-footer {
+    justify-content: space-between;
+  }
+  
+  .info-tarjeta {
+    width: 33.33%;
+    margin-bottom: 0;
+  }
+}
+
+
+
+/* @media (min-width: 768px) {
+  .product {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .product img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+    box-shadow: none;
+  }
+
+  .product-details {
+    padding: 20px;
+  }
+}
+
+/* query para ver en pc*/
+/* @media (min-width: 1200px){
+  .main-head-top, .main-navbar, .navbar-search{
+    max-width: 1200px;
+    margin: auto;
+    
+  }
+  .buy-cuotas{
+    max-width: none;}
+  
+    .main-navbar li {
+      margin: 20px 15px;
+    }
+
+    .main-navbar a{
+      font-size: 19px;
+    }
+    .header {
+      height: 30vh;
+      padding: 30px;}
+
+
+} */
