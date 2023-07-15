@@ -16,7 +16,7 @@
     ;
   }
   .logo {
-    max-width: 25%;
+    max-width: 50%;
     
   }
   
@@ -128,14 +128,9 @@ main{
   margin-bottom: 15px;
   color: #666;
 }
-.visita,
-.ofertas {
-  font-size: 24px;
-  width: 95%;
-  color: #666;
-}
+
 .imagen {
-  width: 100%;
+  width: 90%;
   border-bottom: solid 5px #eee;
   margin: auto;
   border-radius: 10px;
@@ -224,6 +219,12 @@ p span {
     display: flex;
     justify-content: space-between;
   }
+
+  .logo {
+    max-width: 25%;
+    
+  }
+    
   .buy-cuotas{
     max-width: 350px;
     text-align: right;
@@ -249,6 +250,9 @@ p span {
   .navbar-search {
     margin: 25px 0;
     text-align: center;
+  }
+  .imagen {
+    width: 100%;
   }
   
   .producto {
@@ -279,48 +283,3 @@ p span {
   }
 }
 
-
-
-/* @media (min-width: 768px) {
-  .product {
-    display: flex;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-
-  .product img {
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px 0 0 8px;
-    box-shadow: none;
-  }
-
-  .product-details {
-    padding: 20px;
-  }
-}
-
-/* query para ver en pc*/
-/* @media (min-width: 1200px){
-  .main-head-top, .main-navbar, .navbar-search{
-    max-width: 1200px;
-    margin: auto;
-    
-  }
-  .buy-cuotas{
-    max-width: none;}
-  
-    .main-navbar li {
-      margin: 20px 15px;
-    }
-
-    .main-navbar a{
-      font-size: 19px;
-    }
-    .header {
-      height: 30vh;
-      padding: 30px;}
-
-
-} */
