@@ -196,6 +196,7 @@ footer {
   font-size: 32px;
   margin-bottom: 10px;
   color: #1259c3;
+  transition: all 450ms;
 }
 
 .img-footer:hover,
